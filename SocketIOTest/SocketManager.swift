@@ -17,7 +17,7 @@ class SocketManager {
     }
     
     func initSocket() {
-        self.socket = SocketIOClient(socketURL: "http://staging.konnecti.com:5001")
+        self.socket = SocketIOClient(socketURL: "http://localhost:5001")
         self.addHandlers()
     }
     
